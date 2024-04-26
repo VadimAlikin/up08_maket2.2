@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<div class="container">
+					<a href="" class="logo">
+						<img src="img/logo.svg" alt="" />
+					</a>
+					<ul class="links_center">
+						<li><a href="">Подбор тура</a></li>
+						<li><a href="">Горящие туры</a></li>
+						<li><a href="">Страны</a></li>
+						<li><a href="">отели</a></li>
+					</ul>
+					<ul class="links_left">
+						<li>
+							<a href="" class="btn_order">оставить заявку</a>
+						</li>
+						<li class="links_sub">
+							<div class="links_icons">
+								<a href="">
+									<img src="img/call.svg" alt="" />
+								</a>
+								<a href="">
+									<img src="img/location.svg" alt="" />
+								</a>
+							</div>
+							<img src="img/Line 6.svg" alt="" />
+							<a href="" class="menu-toggle"> </a>
+						</li>
+					</ul>
+				</div>
+				<div class="menu_mobile">
+					<div class="container">
+						<div class="mobile_links">
+							<div class="mobile_navigation">
+								<h3>популярные страны</h3>
+								<ul>
+									<li>
+										<div><a href="">Турция</a></div>
+										<div><a href="">ОАЭ</a></div>
+									</li>
+									<li>
+										<div><a href="">Египет</a></div>
+										<div><a href="">Куба</a></div>
+									</li>
+									<li>
+										<div><a href="">Мальдивы</a></div>
+										<div><a href="">Шри-Ланка</a></div>
+									</li>
+								</ul>
+							</div>
+							<div class="mobile_navigation">
+								<h3>туристам</h3>
+								<ul>
+									<li>
+										<div><a href="">Страны</a></div>
+										<div><a href="">Горящие туры</a></div>
+									</li>
+									<li>
+										<div><a href="">Отели</a></div>
+										<div>
+											<a href=""
+												>Как купить и оплатить тур</a
+											>
+										</div>
+									</li>
+									<li>
+										<div><a href="">Подбор тура</a></div>
+									</li>
+								</ul>
+							</div>
+							<div class="mobile_navigation">
+								<h3>компания</h3>
+								<ul>
+									<li>
+										<div><a href="">О нас</a></div>
+										<div><a href="">Новости</a></div>
+									</li>
+									<li>
+										<div><a href="">Отзывы</a></div>
+										<div><a href="">Priority</a></div>
+									</li>
+									<li>
+										<div><a href="">Контакты</a></div>
+										<div><a href="">Агентам</a></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="mobile_contact">
+							<a href="" class="btn_contact"> оставить заявку </a>
+							<div class="mobil_links_icons">
+								<a href="">
+									<img src="img/call.svg" alt="" />
+								</a>
+								<a href="">
+									<img src="img/location.svg" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="header_content container">
+				<h1>
+					путешествия <br />
+					мечты
+				</h1>
+				<h2>выбери свою</h2>
+				<img src="img/линия.svg" class="line" alt="" />
+				<form action="">
+					<div class="input">
+						<input
+							type="text"
+							value="Москва"
+							placeholder="Откуда"
+							autocomplete="off"
+						/>
+						<label for="">Откуда </label>
+					</div>
+					<div class="input to_input">
+						<input type="text" placeholder="Куда" />
+						<label for="">Куда</label>
+					</div>
+					<div class="input departure_time">
+						<input type="text" placeholder="вылет" />
+						<label for="">вылет</label>
+					</div>
+					<div class="inputs">
+						<div class="input count_time">
+							<input
+								type="text"
+								class="to"
+								placeholder="На сколько"
+								value="9 - 12 ночей"
+								autocomplete="off"
+							/>
+							<label for="">На сколько</label>
+						</div>
+						<div class="input count_people">
+							<input
+								type="text"
+								class="to"
+								placeholder="Туристы"
+								value="2 + 0"
+								autocomplete="off"
+							/>
+							<label for="">Туристы</label>
+						</div>
+					</div>
+					<button class="btn_submit" type="submit">
+						подобрать
+						<img src="img/arrow_right_down.svg" alt="" />
+					</button>
+				</form>
+			</div>
+		</header>
+		<main>
+			<section id="hot_tours">
+				<div class="container">
+					<h2>горящие туры</h2>
+					<p class="desc">Поймайте момент</p>
+					<div class="signature">tours</div>
+					<div class="tours">
+						<div class="tour tour_italia_venecia">
+							<div class="badges">
+								<div class="badge">9 дней</div>
+								<div class="badge">от 25 000 ₽</div>
+							</div>
+							<div class="tour_bottom_info">
+								<h3>Италия · Венеция</h3>
+								<div class="date_range">12-18 октября</div>
+								<a href="" class="more_detailed">
+									узнать подробнее
+									<img src="img/line_mini.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="tour tour_turkey">
+							<div class="badges">
+								<div class="badge">14 дней</div>
+								<div class="badge">от 95 000 ₽</div>
+							</div>
+							<div class="tour_bottom_info">
+								<h3>Турция · Каппадокия</h3>
+								<div class="date_range">16-30 сентября</div>
+								<a href="" class="more_detailed">
+									узнать подробнее
+									<img src="img/line_mini.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="tour tour_italia_rim">
+							<div class="badges">
+								<div class="badge">5 дней</div>
+								<div class="badge">от 80 000 ₽</div>
+							</div>
+							<div class="tour_bottom_info">
+								<h3>Италия · Рим</h3>
+								<div class="date_range">10-15 ноября</div>
+								<a href="" class="more_detailed">
+									узнать подробнее
+									<img src="img/line_mini.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="tour tour_oae">
+							<div class="badges">
+								<div class="badge">9 дней</div>
+								<div class="badge">от 25 000 ₽</div>
+							</div>
+							<div class="tour_bottom_info">
+								<h3>ОАЭ · Дубай</h3>
+								<div class="date_range">12-18 октября</div>
+								<a href="" class="more_detailed">
+									узнать подробнее
+									<img src="img/line_mini.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="tour tour_italia_florencia">
+							<div class="badges">
+								<div class="badge">9 дней</div>
+								<div class="badge">от 25 000 ₽</div>
+							</div>
+							<div class="tour_bottom_info">
+								<h3>Италия · Флоренция</h3>
+								<div class="date_range">12-18 октября</div>
+								<a href="" class="more_detailed">
+									узнать подробнее
+									<img src="img/line_mini.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="tour tour_italia_im">
+							<div class="badges">
+								<div class="badge">9 дней</div>
+								<div class="badge">от 25 000 ₽</div>
+							</div>
+							<div class="tour_bottom_info">
+								<h3>Италия · ИМ</h3>
+								<div class="date_range">10-15 ноября</div>
+								<a href="" class="more_detailed">
+									узнать подробнее
+									<img src="img/line_mini.svg" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="line"></div>
+				</div>
+			</section>
+			<section id="populars_hotels">
+				<div class="signature">Hotels</div>
+				<h2>популярные отели</h2>
+				<p class="desc">уют и роскошь в лучших отелях мира</p>
+				<div class="hotels">
+					<div class="hotel hotel_marquis_1">
+						<div class="stars">5</div>
+						<div class="hotel_bottom_info">
+							<h3>JW Marriott Marquis</h3>
+							<a href="" class="more_detailed">
+								узнать подробнее
+								<img src="img/line_mini.svg" alt="" />
+							</a>
+						</div>
+					</div>
+					<div class="hotel hotel_ritz_carlton">
+						<div class="stars">4.9</div>
+						<div class="hotel_bottom_info">
+							<h3>Ritz-Carlton</h3>
+							<a href="" class="more_detailed">
+								узнать подробнее
+								<img src="img/line_mini.svg" alt="" />
+							</a>
+						</div>
+					</div>
+					<div class="hotel hotel_villa_floriz_como">
+						<div class="stars">5</div>
+						<div class="hotel_bottom_info">
+							<h3>Villa Flori Como</h3>
+							<a href="" class="more_detailed">
+								узнать подробнее
+								<img src="img/line_mini.svg" alt="" />
+							</a>
+						</div>
+					</div>
+					<div class="hotel hotel_ikos">
+						<div class="stars">4.8</div>
+						<div class="hotel_bottom_info">
+							<h3>Ikos Dassia</h3>
+							<a href="" class="more_detailed">
+								узнать подробнее
+								<img src="img/line_mini.svg" alt="" />
+							</a>
+						</div>
+					</div>
+					<div class="hotel hotel_marquis">
+						<div class="stars">5</div>
+						<div class="hotel_bottom_info">
+							<h3>JW Marriott Marquis</h3>
+							<a href="" class="more_detailed">
+								узнать подробнее
+								<img src="img/line_mini.svg" alt="" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<a href="" class="more_hotel">Больше отелей</a>
+			</section>
+			<section id="support_select">
+				<div class="container">
+					<form action="">
+						<h2>не определились <br /><span>с выбором?</span></h2>
+						<p>
+							Оставьте свой номер и наш специалист поможет вам с
+							подбором тура
+						</p>
+						<div class="inputs">
+							<input type="text" placeholder="Имя" />
+							<input type="text" placeholder="Телефон" />
+						</div>
+						<button class="btn_submit" type="submit">
+							отправить
+							<img src="img/arrow_right_down.svg" alt="" />
+						</button>
+					</form>
+				</div>
+			</section>
+			<section id="reviews">
+				<div class="container">
+					<div class="signature">Reviews</div>
+					<h2>отзывы</h2>
+					<p class="desc">Впечатления наших путешественников</p>
+					<div class="reviews">
+						<div class="review">
+							<img src="img/review_ava.png" alt="" />
+							<div class="raiting">
+								<img src="img/stars_red.svg" alt="" />
+							</div>
+							<div class="city">Мария С. из Москвы</div>
+							<div class="from_city_from_hotel">
+								Летала в Париж 20.07.23 в отель Ritz-Carlton
+							</div>
+							<p class="review_content">
+								Невероятное путешествие!
+							</p>
+							<p class="review_content">
+								Спасибо за организацию моей поездки в Париж. Все
+								было просто идеально - от отелей до экскурсий.
+								Не могу дождаться следующего приключения с вашей
+								турфирмой!
+							</p>
+						</div>
+						<div class="review">
+							<img src="img/review_ava_2.png" alt="" />
+							<div class="raiting">
+								<img src="img/stars_red.svg" alt="" />
+							</div>
+							<div class="city">
+								Александр Г. из Санкт-Петербурга
+							</div>
+							<div class="from_city_from_hotel">
+								Летал в Тайланд 10.05.23 в отель The Silver Palm
+								Wellness Resort
+							</div>
+							<p class="review_content">
+								Путешествие в Таиланд оказалось невероятным
+								благодаря вашим услугам.
+							</p>
+							<p class="review_content">
+								Профессиональное планирование, отличные
+								рекомендации по местам для посещения и
+								великолепный выбор отелей. Обязательно вернусь к
+								вам снова.
+							</p>
+						</div>
+						<div class="review">
+							<img src="img/review_ava_3.png" alt="" />
+							<div class="raiting">
+								<img src="img/stars_red.svg" alt="" />
+							</div>
+							<div class="city">
+								Екатерина Л. из Екатеринбурга
+							</div>
+							<div class="from_city_from_hotel">
+								Летала на Бали 12.08.23 в отель Hanging Gardens
+							</div>
+							<p class="review_content">
+								Спасибо за незабываемый отдых на Бали! Все было
+								под контролем, начиная с бронирования и
+								заканчивая возвращением домой. Отличная
+								коммуникация и внимание к деталям создали
+								идеальное путешествие.
+							</p>
+						</div>
+						<div class="review">
+							<img src="img/review_ava_4.png" alt="" />
+							<div class="raiting">
+								<img src="img/stars_red.svg" alt="" />
+							</div>
+							<div class="city">Ольга И. из Новосибирска</div>
+							<div class="from_city_from_hotel">
+								Летала в Японию 02.08.23 в отели Nishimuraya
+								Honkan и Four Seasons Hotel Kyoto
+							</div>
+							<p class="review_content">
+								Ваша турфирма стала моим надежным проводником в
+								мир :)
+							</p>
+							<p class="review_content">
+								После поездки в Японию я почувствовала себя
+								настоящим путешественником. Отличная
+								организация, забота о клиентах и интересные
+								маршруты делают вас лучшими! Большое спасибо!
+							</p>
+						</div>
+					</div>
+					<div class="line"></div>
+				</div>
+			</section>
+			<section id="news">
+				<div class="container">
+					<div class="signature">News</div>
+					<h2>новости</h2>
+					<p class="desc">события в мире туризма</p>
+					<div class="news">
+						<article class="relax_children">
+							<h3>
+								отдых с детьми: <br />
+								о чем нужно помнить <br />
+								в путешествии
+							</h3>
+							<a href="" class="read_more">
+								читать
+								<img src="img/line_mini.svg" alt="" />
+							</a>
+						</article>
+						<article class="top_10_unique">
+							<h3>
+								ТОП-10 уникальных и завораживающих мест в ОАЭ
+							</h3>
+							<a href="" class="read_more">
+								читать
+								<img src="img/line_mini.svg" alt="" />
+							</a>
+						</article>
+						<article class="relax_nature">
+							<h3>Отдых, близкий к природе и экологии</h3>
+							<a href="" class="read_more">
+								читать
+								<img src="img/line_mini.svg" alt="" />
+							</a>
+						</article>
+						<article class="wealth_culture">
+							<h3>
+								богатство культурных <br />и исторических
+								сокровищ разных стран
+							</h3>
+							<a href="" class="read_more">
+								читать
+								<img src="img/line_mini.svg" alt="" />
+							</a>
+						</article>
+						<article class="how_travele">
+							<h3>
+								Как сделать путешествие незабываемым для всех
+							</h3>
+							<a href="" class="read_more">
+								читать
+								<img src="img/line_mini.svg" alt="" />
+							</a>
+						</article>
+						<article class="travales_world">
+							<h3>
+								путешествия, которые приведут вас в мир высот,
+								глубин и скорости
+							</h3>
+							<a href="" class="read_more">
+								читать
+								<img src="img/line_mini.svg" alt="" />
+							</a>
+						</article>
+					</div>
+					<a href="" class="more_news">Больше новостей</a>
+				</div>
+			</section>
+			<section id="our_info" class="container">
+				<div class="signature">We</div>
+				<h2>о нас</h2>
+				<p class="desc">Вдохновляем мир на путешествия</p>
+				<div class="we_team">
+					<div class="we_team_text">
+						<p>
+							<span>Мы</span> — команда профессионалов, влюбленных
+							в искусство путешествий. Наша история началась с
+							мечты о том, чтобы сделать каждое путешествие
+							незабываемым, каждое приключение уникальным.
+						</p>
+						<p>
+							Наша миссия — сделать путешествия доступными и
+							незабываемыми. Мы предлагаем вам не просто туры, а
+							волшебные истории, которые будут жить в вашем сердце
+							навсегда. Независимо от того, ищете ли вы релакс на
+							пляже, культурные изыски или экстремальные
+							приключения, мы создадим для вас оптимальное
+							путешествие, подстроенное под ваши уникальные
+							желания.
+						</p>
+					</div>
+					<img
+						src="img/icons8-team-CrW-TbykPBQ-unsplash 1.png"
+						alt=""
+					/>
+				</div>
+				<div class="our_team_plus">
+					<img
+						src="img/Ikos-Dassia_Woman-walking-by-the-pool-01-_2880x1920-1-scaled 1.png"
+						alt=""
+					/>
+					<p>
+						Мы гордимся нашей командой опытных специалистов, каждый
+						из которых разделяет страсть к туризму и стремление
+						сделать ваше путешествие незабываемым. Мы внимательно
+						следим за последними тенденциями в индустрии, чтобы
+						предложить вам только лучшие и самые актуальные
+						варианты.
+					</p>
+					<p>
+						Присоединяйтесь к нам в этом захватывающем путешествии!
+						Мы готовы подарить вам моменты радости, вдохновения и
+						удивления в каждом уголке нашего удивительного мира.
+					</p>
+				</div>
+				<div class="contacts">
+					<div class="connection">
+						<h3>СВЯЗАТЬСЯ С НАМИ</h3>
+						<ul class="socials">
+							<li><a href="" class="facebook_link"></a></li>
+							<li><a href="" class="instagram_link"></a></li>
+							<li><a href="" class="telegram_link"></a></li>
+							<li><a href="" class="whatsapp_link"></a></li>
+							<li><a href="" class="ok_link"></a></li>
+							<li><a href="" class="vk_link"></a></li>
+						</ul>
+					</div>
+					<div class="contact">
+						<h3>КОНТАКТЫ</h3>
+						<div class="telephons">
+							<a href="tel:+">+ 8 (495) 626-26-96</a>
+							<a href="tel:+">+ 8 (925) 826-26-96</a>
+						</div>
+						<a href="mailto:" class="mail_to">
+							anextourchertanovo@gmail.com
+						</a>
+					</div>
+					<div class="address">
+						<h3>АДРЕС</h3>
+						<p class="address_text">
+							Москва, Россошанский проезд, дом 3, (1‑й этаж)
+						</p>
+					</div>
+				</div>
+			</section>
+			<section id="we_create">
+				<div class="container">
+					<form action="">
+						<h2>
+							МЫ ПОМОЖЕМ СОЗДАТЬ<br />
+							<span>ВАШЕ ПУТЕШЕСТВИЕ</span>
+						</h2>
+						<p>
+							Оставьте заявку <br />
+							на подбор идеального путешествия
+						</p>
+						<div class="inputs">
+							<input type="text" placeholder="Имя" />
+							<input type="text" placeholder="Телефон" />
+						</div>
+						<button class="btn_submit" type="submit">
+							отправить
+							<img src="img/arrow_right_down.svg" alt="" />
+						</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="logo_sect">
+					<div class="logo">
+						<img src="img/logo_footer.svg" alt="" />
+					</div>
+					<div class="email_subscribe">
+						<p>Узнавайте о горящих турах первыми</p>
+						<form action="">
+							<img
+								src="img/Feather Icon.svg"
+								alt=""
+								class="email_icon"
+							/>
+							<input type="text" placeholder="Введите почту" />
+							<img
+								src="img/arrow_right_down.svg"
+								alt=""
+								class="arrow_icon"
+							/>
+						</form>
+					</div>
+				</div>
+				<ul class="navigation_links">
+					<li><a href="">Подбор тура</a></li>
+					<li><a href="">Горящие туры</a></li>
+					<li><a href="">Страны и отели</a></li>
+					<li><a href="">Priority</a></li>
+					<li><a href="">оплата</a></li>
+					<li><a href="">отзывы</a></li>
+					<li><a href="">О нас</a></li>
+					<li><a href="">контакты</a></li>
+				</ul>
+				<ul class="socials">
+					<li><a href="" class="facebook_link"></a></li>
+					<li><a href="" class="instagram_link"></a></li>
+					<li><a href="" class="telegram_link"></a></li>
+					<li><a href="" class="whatsapp_link"></a></li>
+					<li><a href="" class="ok_link"></a></li>
+					<li><a href="" class="vk_link"></a></li>
+				</ul>
+				<p class="copy">
+					2023 &copy; Anex Tour - Туристическая компания
+				</p>
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
